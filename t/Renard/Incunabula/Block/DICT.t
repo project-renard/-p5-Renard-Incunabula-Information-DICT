@@ -19,7 +19,7 @@ subtest "Testing Net::Dict" => sub {
 	my %strategies = $dict->strategies;
 	use DDP; p %strategies;
 
-	#«pass('Test name');»
+	pass;
 };
 
 done_testing;
